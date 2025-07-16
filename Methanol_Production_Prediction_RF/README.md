@@ -21,7 +21,7 @@ This dataset contains operational parameters related to methanol production, col
 - Catalyst Tube Diameter
 
 ### 🎯 Target:
-- MOptimal Pressure and Temperature for efficient production of methanol
+- Optimal Pressure and Temperature for efficient production of methanol
 
 > **Note:** This dataset is limited in size and variety, and should not be used for real-world deployment without further validation.
 
