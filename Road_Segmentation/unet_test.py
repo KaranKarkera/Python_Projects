@@ -41,7 +41,7 @@ cfg = CONFIG()
 accelerator = Accelerator(mixed_precision=cfg.USE_MIXED_PRECISION) if cfg.USE_MIXED_PRECISION else Accelerator()
 
 # %%
-datapath = "/home/madwesh/Fast_SCNN/UNet/cityscapes_data"
+datapath = "Path/to/your/dataset/cityscapes_data"
 train_datapath = os.path.join(datapath, "train")
 val_datapath = os.path.join(datapath, "val")
 training_images_paths = [os.path.join(train_datapath, f) for f in os.listdir(train_datapath)]
